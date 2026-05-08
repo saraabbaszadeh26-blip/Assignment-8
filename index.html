@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    
+      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <script src="./css/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="../assets/js/color-modes.js"></script> -->
+    <!-- <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+     <!-- <meta name="theme-color" content="#712cf9" /> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+     <link rel="stylesheet" href="css2/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<div>
+    
+   
+ <!-- <nav class="navbar navbar-expand-md navbar-loght fixed-top bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+             <li class="nav-item"><a class="nav-link" href="cart.html">Cart/Checkout</a></li>
+            <li class="nav-item"><a class="nav-link" href=""></a></li>
+          </ul>
+        
+        </div>
+      </div>
+    </nav> -->
+     <header class="site-header sticky-top shadow-sm">
+      <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+        <div class="container">
+          <a class="navbar-brand brand-mark" href="index.html">
+            <!-- <i class="glyphicon glyphicon-eye-open" aria-hidden="true"></i> -->
+             <i class="material-icons">&#xe88a;</i>
+             
+            Sara Beauty brand
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">Cart/Checkout</a>
+              </li>
+            </ul>
+            <button
+              id="themeToggle"
+              class="btn btn-outline-dark ms-lg-3"
+              type="button"
+              aria-pressed="false"
+            >
+              <i class="fa-regular fa-moon" aria-hidden="true"></i>
+              Theme
+            </button>
+          </div>
+        </div>
+      </nav>
+         
+    </header>
+</div>
+<main>
+<div id="welcome">
+  <h1>Welcome to our Page</h1>
+
+</div>
+
+
+ 
+
+<div>
+ <h2>Please visit our products:</h2>
+  <section class="slider" class="hero-section">
+  <div class="col-lg-6">
+              <div
+                id="promoCarousel"
+                class="carousel slide shadow-lg rounded-11 overflow-hidden"
+                data-bs-ride="carousel"
+                aria-label="Featured course highlights"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                   <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="4"
+                    aria-label="Slide 5"
+                  ></button>
+                   <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="5"
+                    aria-label="Slide 6"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="6"
+                    aria-label="Slide 7"
+                  ></button>
+                   <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="7"
+                    aria-label="Slide 8"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="8"
+                    aria-label="Slide 9"
+                  ></button>
+                   <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="9"
+                    aria-label="Slide 10"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#promoCarousel"
+                    data-bs-slide-to="10"
+                    aria-label="Slide 11"
+                  ></button>
+                   
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="image/Atr1.jpg" 
+                      class="d-block w-100 h-75"
+                      alt="lipsticks picture"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="image/brash1.jpg"
+                      class="d-block w-100 h-75"
+                      alt="lipsticks picture"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="image/cream2.jpg"
+                      class="d-block w-100 h-75"
+                      alt="lipsticks picture"
+                    />
+                  </div>
+                   <div class="carousel-item">
+                    <img
+                      src="image/lip1.jpg"
+                      class="d-block w-100 h-75"
+                      alt="lipsticks picture"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="image/makup1.jpg"
+                      class="d-block w-100 h-75"
+                      alt="lipsticks picture"
+                    />
+                  </div>
+                   <div class="carousel-item">
+                    <img
+                      src="image/powder1.jpg"
+                      class="d-block w-100 h-75"
+                      alt="lipsticks picture"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="image/remel.jpg"
+                      class="d-block w-100 h-75"
+                      alt="lipsticks picture"
+                    />
+                  </div>
+                   <div class="carousel-item">
+                    <img
+                      src="image/serom1.jpg"
+                      class="d-block w-100 h-75"
+                      alt="lipsticks picture"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="image/skaj1.jpg"
+                      class="d-block w-100 h-75"
+                      alt="lipsticks picture"
+                    />
+                  </div>
+                   <div class="carousel-item">
+                    <img
+                      src="image/spf1.jpg"
+                      class="d-block w-100 h-75"
+                      alt="lipsticks picture"
+                    />
+                  </div>
+                  
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#promoCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#promoCarousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+</div>
+<div class="search" class="d-flex flex-column flex-sm-row gap-2 controls-wrap">
+              <label class="visually-hidden" for="searchInput"
+                >Search product you need</label
+              >
+               <input
+                id="searchInput"
+                class="form-control"
+                type="search"
+                placeholder="Search product you need"
+              />
+              </div>
+<section>
+
+  <h3>1-perfume</h3>
+  <div class="perfume">
+    <div class="Atr" data-id="1" data-name="victoria" data-price="$40">
+
+      <img  class="per" id="Atr2"  src="image/Atr2.jpg" alt="perfume picture" width="500rem"
+      height="300rem"> 
+      <h3>Victoria secret</h3>
+      <p>Price = $40</p>
+      <button class="add-to-cart">add to cart</button>
+
+      <!-- style="cursor: pointer;"> -->
+      <!-- <div id="infoBox" style="display: none; border: 2px dotted #22020f; padding: 10px; margin-top: 10px;">This perfume is 40$</div> -->
+    </div>
+
+     <div class="Atr" data-id="2" data-name="My Way" data-price="$50">
+      <img  class="per" id="Atr3"   src="image/Atr3.jpg" alt="perfume picture"  width="500rem"
+      height="300rem">
+      <h3>My Way</h3>
+      <p>Price = $40</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="Atr" data-id="3" data-name="coco chanel" data-price="$60">
+      <img  class="per" id="Atr4"  src="image/Atr4.jpg" alt="perfume picture" width="500rem"
+      height="300rem">
+      <h3>Coco Chanel</h3>
+      <p>Price = $60</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="Atr" data-id="4" data-name="miss dior" data-price="$100">
+      <img  class="per" id="Atr5" src="image/Atr5.jpg" alt="perfume picture"  width="500rem"
+      height="300rem">
+      <h3>Miss Dior</h3>
+      <p>Price = $100</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="Atr" data-id="5" data-name="scandal" data-price="$40">
+      <img  class="per" id="Atr6" src="image/Atr6.jpg" alt="perfume picture"  width="500rem"
+      height="300rem">
+      <h3>Scandal</h3>
+      <p>Price = $40</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="Atr" data-id="6" data-name="YSL" data-price="$80">
+      <img  class="per" id="Atr7"  src="image/Atr7.jpg" alt="perfume picture" width="500rem"
+      height="300rem">
+      <h3>YSL</h3>
+      <p>Price = $80</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="Atr" data-id="8" data-name="chanel" data-price="$30">
+      <img  class="per" id="Atr8"  src="image/Atr8.jpg" alt="perfume picture" width="500rem"
+      height="300rem">
+      <h3>Chanel Chanel</h3>
+      <p>Price = $30</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     
+  </div>
+</section>
+<section>
+
+  <h3>2-Brash</h3>
+  <div class="brash">
+    <div class="bras" data-id="2-1" data-name="black brash" data-price="$5">
+      <img  class="bra"   src="image/brash2.jpg" alt="brash picture" width="500rem"
+      height="300rem">
+      <h3>black brash</h3>
+      <p>Price = $5</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="bras" data-id="2-2" data-name="blue brash" data-price="$3">
+      <img  class="bra"    src="image/brash3.jpg" alt=" brash picture"  width="500rem"
+      height="300rem">
+      <h3>blue brash</h3>
+      <p>Price = $3</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="bras" data-id="2-3" data-name="pink brash" data-price="$3">
+      <img  class="bra"   src="image/brash4.jpg" alt="brash picture" width="500rem"
+      height="300rem">
+      <h3>pink brash</h3>
+      <p>Price = $3</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="bras" data-id="2-4" data-name="white brash" data-price="$4">
+      <img  class="bra"  src="image/brash5.jpg" alt="brash picture"  width="500rem"
+      height="300rem">
+      <h3>white brash</h3>
+      <p>Price = $4</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="bras" data-id="2-5" data-name="brown brash" data-price="$6">
+      <img  class="bra"  src="image/brash6.jpg" alt="brash picture"  width="500rem"
+      height="300rem">
+      <h3>brown brash</h3>
+      <p>Price = $6</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="bras" data-id="2-6" data-name="brown2 brash" data-price="$5">
+      <img  class="bra"   src="image/brash7.jpg" alt="brash picture" width="500rem"
+      height="300rem">
+      <h3>Rose Gold brash</h3>
+      <p>Price = $5</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     
+     
+  </div>
+</section>
+
+<section>
+
+  <h3>3-Types of Cream</h3>
+  <div class="cream">
+    <div class="crea" data-id="3-1" data-name="body cream" data-price="$30">
+      <img  class="cre"   src="image/cream3.jpg" alt="cream picture" width="500rem"
+      height="300rem">
+      <h3>Body Cream</h3>
+      <p>Price = $30</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="crea" data-id="3-2" data-name="hand cream" data-price="$10">
+      <img  class="cre"    src="image/cream4.jpg" alt="cream picture"  width="500rem"
+      height="300rem">
+      <h3>Hand Cream</h3>
+      <p>Price = $10</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="crea" data-id="3-3" data-name="blush" data-price="$20">
+      <img  class="cre"   src="image/cream5.jpg" alt="cream picture" width="500rem"
+      height="300rem">
+      <h3>Blush Cream</h3>
+      <p>Price = $20</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="crea" data-id="3-4" data-name="Arencia" data-price="$15">
+      <img  class="cre"  src="image/cream6.jpg" alt="cream picture"  width="500rem"
+      height="300rem">
+      <h3>Arencia</h3>
+      <p>Price = $15</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="crea" data-id="3-5" data-name="iroha" data-price="$20">
+      <img  class="cre"  src="image/cream7.jpg" alt="cream picture"  width="500rem"
+      height="300rem">
+      <h3>Iroha</h3>
+      <p>Price = $20</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+    
+  </div>
+</section>
+<section>
+
+  <h3>4-Lipstick</h3>
+  <div class="lipstick">
+    <div class="lipst" data-id="4-1" data-name="remedy" data-price="$10">
+      <img  class="lip"   src="image/lip2.jpg" alt="cream picture" width="500rem"
+      height="300rem">
+      <h3>Remedy</h3>
+      <p>Price = $10</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="lipst" data-id="4-2" data-name="she glam1" data-price="$10">
+      <img  class="lip"    src="image/lip3.jpg" alt="cream picture"  width="500rem"
+      height="300rem">
+      <h3>She Glam set</h3>
+      <p>Price = $10</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="lipst" data-id="4-3" data-name="she glam2" data-price="$7">
+      <img  class="lip"   src="image/lip4.jpg" alt="cream picture" width="500rem"
+      height="300rem">
+      <h3>She Glam cute</h3>
+      <p>Price = $7</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="lipst" data-id="4-4" data-name="she glam3" data-price="$10">
+      <img  class="lip"  src="image/lip5.jpg" alt="Lipstick picture"  width="500rem"
+      height="300rem">
+      <h3>She Glam Special</h3>
+      <p>Price = $10</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="lipst" data-id="4-5" data-name="Dior" data-price="$8">
+      <img  class="lip"  src="image/lip6.jpg" alt="Lipstick picture"  width="500rem"
+      height="300rem">
+      <h3>Dior</h3>
+      <p>Price = $80</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+      <div class="lipst" data-id="4-6" data-name="small" data-price="$4">
+      <img  class="lip"   src="image/lip7.jpg" alt="Lipstick picture" width="500rem"
+      height="300rem">
+      <h3>Mini Lipstick</h3>
+      <p>Price = $40</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="lipst" data-id="4-7" data-name="injection" data-price="$7">
+      <img  class="lip"  src="image/lip8.jpg" alt="Lipstick picture"  width="500rem"
+      height="300rem">
+      <h3>Injection</h3>
+      <p>Price = $7</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="lipst" data-id="4-8" data-name="heart" data-price="$10">
+      <img  class="lip"  src="image/lip9.jpg" alt="Lipstick picture"  width="500rem"
+      height="300rem">
+      <h3>Heart</h3>
+      <p>Price = $10</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+    <div class="lipst" data-id="4-9" data-name="soft" data-price="$3">
+      <img  class="lip"  src="image/lip10.jpg" alt="Lipstick picture"  width="500rem"
+      height="300rem">
+      <h3>Soft</h3>
+      <p>Price = $3</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+    
+  </div>
+</section>
+<h3>5-Makeup cream</h3>
+  <div class="makeup" >
+    <div class="makeu"data-id="5-1" data-name="mac" data-price="$50">
+      <img  class="make"   src="image/makup2.jpg" alt="cream picture" width="500rem"
+      height="300rem">
+       <h3>MAC</h3>
+      <p>Price = $50</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="makeu" data-id="5-2" data-name="laura" data-price="$40">
+      <img  class="make"    src="image/makup3.jpg" alt="cream picture"  width="500rem"
+      height="300rem">
+       <h3>Laura</h3>
+      <p>Price = $40</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="makeu" data-id="5-3" data-name="fenty" data-price="$30">
+      <img  class="make"   src="image/makup4.jpg" alt="cream picture" width="500rem"
+      height="300rem">
+       <h3>Fenty</h3>
+      <p>Price = $30</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="makeu" data-id="5-4" data-name="anua" data-price="$45">
+      <img  class="make"  src="image/makup5.jpg" alt="Lipstick picture"  width="500rem"
+      height="300rem">
+       <h3>Anua</h3>
+      <p>Price = $45</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="makeu" data-id="5-6" data-name="dior backing" data-price="$60">
+      <img  class="make"  src="image/makup6.jpg" alt="Lipstick picture"  width="500rem"
+      height="300rem">
+       <h3>Dior</h3>
+      <p>Price = $60</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+      <div class="makeu" data-id="5-7" data-name="make up" data-price="$35">
+      <img  class="make"   src="image/makup7.jpg" alt="Lipstick picture" width="500rem"
+      height="300rem">
+       <h3>Make Up</h3>
+      <p>Price = $35</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="makeu" data-id="5-8" data-name="milk sun" data-price="$20">
+      <img  class="make"  src="image/makup8.jpg" alt="Lipstick picture"  width="500rem"
+      height="300rem">
+       <h3>Milk Sun</h3>
+      <p>Price = $20</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+     <div class="makeu" data-id="5-9" data-name="natural" data-price="$10">
+      <img  class="make"  src="image/makup9.jpg" alt="Lipstick picture"  width="500rem"
+      height="300rem">
+       <h3>Natural</h3>
+      <p>Price = $10</p>
+      <button class="add-to-cart">add to cart</button>
+    </div>
+   
+    
+  </div>
+</section>
+ <!-- <div class="products">
+    <div class="product" data-id="1" data-name="victoria" data-price="$40">
+
+      <img  class="per" id="Atr2"  src="image/Atr2.jpg" alt="perfume picture" width="500rem"
+      height="300rem"> 
+      <h3>Victoria secret</h3>
+      <p>Price = $40</p>
+      <button class="add-to-cart">add to cart</button>
+
+
+     
+    </div>
+    
+    </div>
+    <div class="cart">
+  <h2>cart</h2>
+ <div class="cart-items"></div>
+ <p>Total price: <span class="total-price">0</span>$</p>
+</div> -->
+
+</main>
+   
+    <script
+      src="../assets/dist/js/bootstrap.bundle.min.js"
+      class="astro-vvvwv3sm"
+    ></script>
+    <script src="js/main.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/data.js"></script>
+
+</body>
+</html>
